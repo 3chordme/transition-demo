@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    transition: color 1s ease;
+}
+
+h1:hover {
+    color: blue;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 50px;
+    animation: attempt-two 1s infinite linear;
+}
+
+@keyframes attempt-two {
+    100% {
+        transform: rotate(360deg);
+    }
+}
